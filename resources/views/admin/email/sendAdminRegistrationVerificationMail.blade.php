@@ -1,0 +1,1 @@
+<p>To Verify Account <a href="{{ route('admin.sendAdminEmail',['email'=>$adminUser->email,'verifyToken'=>$adminUser->verifyToken]) }}">Click Here</a></p>
